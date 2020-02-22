@@ -1,0 +1,39 @@
+.event-dashboard {
+  background-color: #e8f9e9;
+  .poppins-font {
+    font-family: 'Poppins', sans-serif;
+  }
+  .gold-gradient {
+    background: linear-gradient(to right, #f505b9, #fdd7ac);
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+    background-clip: text;
+  }
+  
+  .ibmplex-font {
+    font-family: 'IBM Plex Sans', sans-serif;
+    font-weight: 400;
+  }
+  .dashboard-header {
+    text-align: center;
+    font-size: calc(0.8em + 1vw); 
+  }
+  .create-event-button {
+    float: right;
+    margin-right: 2%;
+    margin-top: 1rem;
+    background-color: white;
+    color: #f505b9;
+    border-radius: 0;
+    text-transform: uppercase;
+    border: 1;
+    font-weight: 700;
+  }
+  .event-row {
+    .event-col {
+      .event-card {
+        width: 100%;
+      }
+    }
+  }
+}
